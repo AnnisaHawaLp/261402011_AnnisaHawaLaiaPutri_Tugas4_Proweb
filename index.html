@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Bootstrap</title>
+    <!-- CSS Bootstrap Lokal -->
+    <link href="./bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        .font-handwriting {
+            font-family: 'Caveat', cursive, sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+        <div class="container-fluid">
+            <a class="navbar-brand text-secondary" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active text-secondary" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown">
+                            Tugas Pemrograman Web
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="btn btn-outline-secondary btn-sm px-3" href="#">Daftar</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="btn btn-outline-secondary btn-sm px-3" href="#">Masuk</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <h1 class="display-3 font-handwriting text-secondary fw-bold mb-0">Hewwo>>.<<!</h1>
+                <h1 class="display-4 font-handwriting text-secondary fw-bold mb-3">Welcome in hawa's website</h1>
+                <p class="text-secondary mb-4">let introduce my bias;)</p>
+                <a href="#" class="btn btn-success px-4 py-2" style="background-color: #799a77; border-color: #799a77;">Yuk Cari Tau!</a>
+            </div>
+            
+            <div class="col-lg-6 text-center">
+                <img src="./hacker cat.jpg" class="img-fluid rounded" alt="Foto Utama">
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-3 mb-3">
+                <img src="./sungchanRiize.jpg" class="img-fluid rounded" alt="hacker-cat">
+            </div>
+            <div class="col-md-3 mb-3">
+                <img src="./rickyzb1.jpg" class="img-fluid rounded" alt="rickyzb1">
+            </div>
+            <div class="col-md-3 mb-3">
+                <img src="./HyunjinNtik.jpg" class="img-fluid rounded" alt="HyunjinNtik">
+            </div>
+            <div class="col-md-3 mb-3">
+                <img src="./martincortis.jpg" class="img-fluid rounded" alt="martincortis">
+            </div>
+        </div>
+    </div>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
